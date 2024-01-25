@@ -1,7 +1,7 @@
 # Covid-19 Data Analysis
 
 ## Overview
-This project focuses on transforming raw data using SQL, storing the processed data in a postgres database, and creating a descriptive Power BI dashboard for state and county-level analysis. Additionally, a Python script has been developed to provide weekly notifications to stakeholders about the top 10 states or counties with the highest number of deaths. Moreover, an alert system has been implemented to notify stakeholders when a particular county exceeds an expected threshold, triggering a detailed email about the number of deaths in that specific county.
+This project focuses on transforming raw data using SQL, storing the processed data in a postgres database, and creating a descriptive Power BI dashboard for state and county-level analysis. Additionally, a Python script has been developed to provide monthly/weekly notifications to stakeholders about the top 10 states or counties with the highest number of deaths. Moreover, an alert system has been implemented to notify stakeholders when a particular county exceeds an expected threshold, triggering a detailed email about the number of deaths in that specific county.
 
 ## Project Components
 
