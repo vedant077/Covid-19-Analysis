@@ -11,7 +11,7 @@ smtp_server = "smtp.gmail.com"
 smtp_port = 587
 
 # Replace this with your actual data
-county_deaths_data = pd.read_csv("data/listings_austin.csv")
+county_deaths_data = pd.read_csv("data/covid.csv")
 
 # Sort the counties based on death counts
 
