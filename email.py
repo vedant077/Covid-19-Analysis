@@ -1,6 +1,7 @@
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import pandas as pd
 
 # Replace these values with your actual email details
 sender_email = "your_email@gmail.com"
@@ -10,10 +11,7 @@ smtp_server = "smtp.gmail.com"
 smtp_port = 587
 
 # Replace this with your actual data
-county_deaths_data = [
-    ("County1", 100),
-    ("County2", 95)
-]
+county_deaths_data = pd.read_csv("data/listings_austin.csv")
 
 # Sort the counties based on death counts
 
