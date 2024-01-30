@@ -38,8 +38,10 @@ message.attach(MIMEText(email_content, "plain"))
 # Connect to the SMTP server
 with smtplib.SMTP(smtp_server, smtp_port) as server:
     server.starttls()
+    
     # Login to the email account
     server.login(sender_email, sender_password)
+    
     # Send the email
     server.sendmail(sender_email, receiver_email, message.as_string())
 
